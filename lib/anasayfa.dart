@@ -45,7 +45,7 @@ class _AnasayfaState extends State<Anasayfa> {
             gecmisSayi = sayi1.toString()+islem.toString()+sayi2.toString();
             gosterilecekSayi="";
           }
-       
+
       }break;
       case "+/-": { }break;
       default:{ //Rakamlara tıklandığında çalışacak
@@ -62,7 +62,7 @@ class _AnasayfaState extends State<Anasayfa> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text("Toplama İşlemi"),),
+      appBar: AppBar(title: const Text("Hesap Makinesi"),),
       body: Padding(
         padding: const EdgeInsets.only(top: 60.0),
         child: (
